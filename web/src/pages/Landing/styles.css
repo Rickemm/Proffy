@@ -1,19 +1,17 @@
+body{
+    background: var(--color-primary);
+}
+
 #page-landing {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
 
     color: var(--color-text-in-primary);
-    background: var(--color-primary);
-}
-
-.logo-conteiner img {
-    width: 35rem;
-    margin-top: 2.5rem;
 }
 
 .hero-image{
@@ -25,6 +23,11 @@
     margin-bottom: 3.2rem;
 }
 
+.logo-conteiner img {
+    width: 35rem;
+    margin-top: 2.5rem;
+}
+
 .logo-conteiner h2{
     font-weight: 500;
     font-size: 2.4rem;
@@ -34,12 +37,12 @@
 
 .buttons-conteiner{
     display: flex;
-    justify-content: center;
-    margin: 3.2rem 0;
+    flex-direction: column;
+    margin: 6.4rem 0;
 }
 
 .buttons-conteiner a{
-    width: 30rem;
+    width: 100%;
     height: 10.4rem;
     border-radius: 0.8rem;
     font: 700 2.0rem Archivo;
@@ -52,6 +55,11 @@
     color: var(--color-button-text);
 
     transition: background-color 0.2s;
+}
+
+
+.buttons-conteiner a + a{
+    margin-top: 1.4rem;
 }
 
 .buttons-conteiner a:first-child{
@@ -105,39 +113,47 @@
             "buttons buttons total"
         ;       
     }
-}
 
-.logo-conteiner{
-    grid-area: logo;
-    align-self: center;
-    text-align: left;
-    margin: 0;
-}
+    .logo-conteiner{
+        grid-area: logo;
+        align-self: center;
+        text-align: left;
+        margin: 0;
+    }
 
-.logo-conteiner h2{
-    text-align: initial;
-    font-size: 3.6rem;
-}
+    .logo-conteiner h2{
+        text-align: initial;
+        font-size: 3.6rem;
+    }
 
-.logo-conteiner img{
-    height: 100%;
-}
+    .logo-conteiner img{
+        height: 100%;
+    }
 
-.hero-image{
-    grid-area: hero;
-    justify-self: end;
-}
+    .hero-image{
+        grid-area: hero;
+        justify-self: end;
+    }
 
-.buttons-conteiner{
-    grid-area: buttons;
-    justify-content: flex-start;
-}
+    .buttons-conteiner{
+        grid-area: buttons;
+        width: 60rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
 
-.buttons-conteiner a{
-    font-size: 2.4rem;
-}
+    .buttons-conteiner a{
+        font-size: 2.4rem;
+    }
 
-.total-connections{
-    grid-area: total;
-    justify-self: end;
+    .buttons-conteiner a + a{
+        margin: 0;
+    }
+
+
+    .total-connections{
+        grid-area: total;
+        justify-self: end;
+    }
 }
