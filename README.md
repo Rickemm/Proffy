@@ -1,21 +1,9 @@
-<style>
-    #logo{
-        height: 120px;
-        fill: #715AC1;
-    }
-    .proffy{
-        color: #715AC1;
-        font-weight: bold;
-        font-style: italic;
-    }
-</style>
+<p align="center">
+    <img id="logo" src="./.github/logo.svg" alt="Proffy" height="120">
+    <h3 align="center">🚀️Projeto destinado a ajudar estudantes a encontrar professores</h4>
+</p>
 
-<div align="center">
-    <img id="logo" src="./.github/logo.svg" alt="Proffy">
-    <h3>🚀️Projeto destinado a ajudar estudantes a encontrar professores</h4>
-</div>
-
-<section id="shields" align="center">
+<p id="shields" align="center">
     <a href="https://www.linkedin.com/in/henrique-m-martins/">
         <img src="https://img.shields.io/badge/-HenriqueMonteiro-715AC1?style=flat&logo=LinkedIn" alt="LinkedIn">
     </a>    
@@ -25,12 +13,12 @@
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Rickemm/Proffy?color=715ac1">
     <img src="https://img.shields.io/badge/Proffy-NLW 2.0-8257E5?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
     <img alt="GitHub" src="https://img.shields.io/github/license/Rickemm/Proffy?color=715ac1">
-</section>
+</p>
  
 <section id="description">
     <h1>📖️ Sobre o projeto</h1>
     <p>
-        O <span class="proffy">Proffy </span> tem o objetivo de conectar alunos aos professores, assim como auxiliar os professores a divulgar seu trabalho no meio digital. 
+        O <span color: #715AC1 font-weight: bold font-style: italic>Proffy </span> tem o objetivo de conectar alunos aos professores, assim como auxiliar os professores a divulgar seu trabalho no meio digital. 
         <br>
         O uso da plataforma é simples, o aluno pode buscar pela matéria desejada no dia de sua preferência e mandar uma primeira mensagem pelo whatsapp para o professor que estiver disponivel.
     </p>
